@@ -7,4 +7,9 @@ describe('dinosaur', function(){
     const dinosaur = new Dinosaur();
     assert.strictEqual(dinosaur.type, "Tyrannosaurus Rex")
   });
+
+  it('should have a number of offspring per year', function(){
+    const dinosaur = new Dinosaur();
+    assert.strictEqual(dinosaur.noOfOffspring, 2);
+  });
 });
